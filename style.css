@@ -1,0 +1,143 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    background-color: rgb(221, 148, 170) ;                
+}
+
+main{
+    padding: 50px;
+    
+}
+
+.header-lista li{
+    display: inline-block;
+    list-style-type: none;
+    justify-content: center;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px ;
+    }
+    
+
+.logo{ 
+    height: 125px ;
+}
+
+.header-nav{
+    display: inline-block;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none; 
+}
+
+.hero-content{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 250px 250px;
+    background-color: rgb(6, 71, 71);
+    margin-top: 50px;
+
+}
+
+#coment{
+    display: flex;
+    flex-direction:column ;
+}
+
+.img{
+    height: 250px;
+    width: 180px;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-items: center;
+}
+
+.footer{
+    padding: 25px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;    
+    background-color: rgb(156, 92, 92) ;
+}
+
+div{
+    background-color: rgb(228, 174, 104);
+   
+}
+
+#padre{
+    height: 807px;
+    background-color: white;
+    object-fit: contain;
+
+}
+
+#hijoUno{
+    background-color: aquamarine;
+    height: 250px;
+}
+
+#hijoDos{
+    background-color: rgb(3, 46, 32);
+    height: 250px;
+}
+
+#hijoTres{
+    background-color: rgb(175, 31, 74);
+    height: 250px;
+}
+
+section{
+    height: 1000px;
+    object-fit: contain;
+}
+
+
+
+.bi-youtube{
+    font-size: 60px;
+    color: red
+}
+
+.bi-youtube:hover{
+    font-size: 60px;
+    color: green;
+}    
+
+
+.bi-envelope{
+    font-size: 60px;
+    color: red ;
+}
+
+.bi-envelope:hover{
+    font-size: 60px;
+    color: green ;
+}
+
+.bi-facebook{
+    font-size: 60px;
+    color: red;
+}
+.bi-facebook:hover{
+    font-size: 60px;
+    color: green;
+}
